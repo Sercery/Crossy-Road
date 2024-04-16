@@ -13,6 +13,6 @@ public class Camera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.up * 0.0001f);
+        transform.Translate(Vector3.up * 0.001f);
     }
 }
